@@ -1,0 +1,14 @@
+# D:\ 根仓库：默认不纳管任何内容。
+# 本盘约 265 GB（Program Files (x86) 128G / games 95G / 微信 11G / 其它 30G），
+# 直接 git add -A 会扫爆，且 GitHub 单文件上限 100 MB，整盘推送不可能。
+/*
+
+# 白名单：只放行仓库自身的两个骨架文件
+!.gitignore
+!README.md
+
+# ---- 想纳管某个目录，加一行 !目录名/ 即可（该目录内部文件随后不再被忽略）----
+# 例：!ppt/
+# 例：!ppt/实习/hardware_price_monitor/
+# 大文件目录务必保持忽略：games/ BaiduNetdiskDownload/ WeChat Files/ Program Files*/
+# 系统/权限目录务必保持忽略：$RECYCLE.BIN/ System Volume Information/ Config.Msi/ WindowsApps/ WpSystem/
